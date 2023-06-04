@@ -63,7 +63,7 @@ const Navigation = (props) => {
         )}
         {context.isLoggedIn && (
           <li>
-            <button onClick={props.onLogout}>Выйти</button>
+            <button onClick={context.onLogout}>Выйти</button>
           </li>
         )}
       </ul>
